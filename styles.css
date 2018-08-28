@@ -1,0 +1,137 @@
+.nav {
+    background-color: #222222;
+}
+
+.nav>li {
+    display: inline-block;
+    background-color: #222222;
+}
+
+@media(max-width:767px) {
+    .nav>li {
+        display: block;
+    }
+}
+
+.nav>li a {
+    color:#8e8e8e;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    color:#ffffff;
+    background-color:#080808;
+}
+
+.nav>li a#logo {
+    color:#ffffff;
+    font-size: 1.3em;
+}
+
+.nav>li a#logo:hover {
+    background-color: #222222;
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+}
+@media(max-width:767px) {
+    .row {
+        flex-direction:column;
+    }
+}
+
+.row .grid {
+    background-color: #fff;
+    text-align: center;
+}
+
+.row .grid img{
+    max-width:100%;
+    margin: .8em 0;
+}
+
+.section {
+    margin: 2em 0;
+}
+
+.green-section {
+    background-color:#52ad81;
+    color:#fff;
+    padding: 1em;
+}
+.green-section .row .grid {
+    background-color:transparent;
+}
+
+.green-section .row .grid ul {
+    padding-left:0;
+}
+
+.green-section .row .grid ul li.list a {
+    color:#fff;
+    text-align:left;
+    text-decoration:none;
+    display:flex;
+    flex-direction: row;
+}
+
+.green-section .row .grid ul li.list {
+    text-align:left;
+    list-style-type: none;
+}
+
+.green-section .row .grid ul li.list .link .icon {
+    margin: .5em;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.green-section .row .grid ul li.social-list {
+    list-style-type: none;
+    background-color:#fff;
+    border-bottom: 1px solid #ccc;
+    cursor:pointer;
+}
+
+.green-section .row .grid ul li.social-list:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.green-section .row .grid ul li.social-list:last-child {
+    border-bottom: none;
+}
+
+.green-section .row .grid ul li.social-list:hover{
+    background-color:#389968;
+}
+
+.green-section .row .grid ul li.social-list a.link {
+    display:block;
+    padding: 1em;
+    text-align:left;
+    color:#333;
+}
+
+.green-section .row .grid ul li.social-list a.link:hover {
+    color:#fff;
+    text-decoration:none;
+}
+
+.green-section .row .grid ul li.social-list a:hover,
+.green-section .row .grid ul li.social-list a:focus {
+    color:#fff;
+    text-decoration:none;
+}
+
+.green-section h3 {
+    color:#fff;
+    text-align: center;
+}
+
+.green-section p {
+    text-align:center;
+}
+
